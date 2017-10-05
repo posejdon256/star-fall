@@ -1,1 +1,22 @@
-/* CSS declarations go here */
+@font-face {
+    font-family: 'Roboto';
+    src: url(/fonts/Roboto-Black.ttf) format('truetype'),
+         url('/fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('/fonts/roboto-medium-webfont.woff') format('woff')
+    ;
+}
+button.star-fall.violet{
+    transition: background-color 0.5s;
+    color: rgb(190,169,222);
+    background-color: rgb(19,24,98);
+    padding: 4px 14px;
+    margin: 3px;
+    font-family: 'Roboto';
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+button.star-fall:hover{
+    transition: all 0.5s;
+    background-color: rgb(46,68,130);
+}
