@@ -11,6 +11,8 @@ export default class App extends Component{
                 <Sky>
                     <SkyButton styleName='violet'>Star Fall Violet</SkyButton>
                     <SkyButton styleName='light'>Star Fall Light</SkyButton>
+                    <SkyButton styleName='warn'>Star Fall Warn</SkyButton>
+                    <SkyButton styleName='disabled'>Star Fall Disabled</SkyButton>
                     <SkyFavButton styleName="primary">star</SkyFavButton>
                 </Sky>
             </div>

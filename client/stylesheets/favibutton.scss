@@ -1,38 +1,3 @@
-button.star-fall{
-    padding: 4px 14px;
-    margin: 3px;
-    font-family: 'Roboto';
-    border: none;
-    border-radius: 2px;
-    text-transform: uppercase;
-    position: relative;
-    z-index: 2;
-    cursor: pointer;
-    transition: font-size 0.5s;
-    font-size: 12px;
-}
-button.star-fall.violet{
-    transition: all 0.5s;
-    color: rgb(190,169,222);
-    background-color: rgb(19,24,98);
-    font-size: 12px;
-}
-button.star-fall.light{
-    transition: all 0.5s;
-    color: rgb(46,68,130);
-    background-color: rgb(135,136,156);
-    font-size: 12px;
-}
-button.star-fall.violet:hover{
-    transition: all 0.5s;
-    background-color: rgb(46,68,130);
-    font-size: 13px;
-}
-button.star-fall.light:hover{
-    transition: all 0.5s;
-    background-color: rgb(190,169,222);
-    font-size: 13px;
-}
 .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
@@ -60,9 +25,15 @@ button.star-fall.light:hover{
 .sky-icon{
       position: relative;
       margin: 5px;
-  }
+      transition: font-size 0.3s;
+      font-size: 23px;
+}
+button.sky-fav-button:hover > .sky-icon{
+    transition: all 0.3s;
+    font-size: 26px;
+}
 button.sky-fav-button{
-    border-radius: 20px;
+    border-radius: 23px;
     padding: 0px;
 }
 button.sky-fav-button.primary:hover{
