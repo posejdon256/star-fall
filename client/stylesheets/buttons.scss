@@ -13,41 +13,39 @@ button.star-fall{
     border: none;
     border-radius: 2px;
     text-transform: uppercase;
-    position: relative;
-    z-index: 2;
     cursor: pointer;
     transition: font-size 0.5s;
     font-size: 12px;
     outline: none;
 }
-button.star-fall.violet{
+button.violet{
     color: rgb(190,169,222);
     background-color: rgb(19,24,98);
     @include animateWith12Font;
 }
-button.star-fall.violet:hover{
+button.violet:hover{
     background-color: rgb(46,68,130);
     @include animateWith13Font;
 }
-button.star-fall.light{
+button.light{
     color: rgb(46,68,130);
     background-color: rgb(135,136,156);
     @include animateWith12Font;
 }
-button.star-fall.light:hover{
+button.light:hover{
     background-color: rgb(190,169,222);
     @include animateWith13Font;
 }
-button.star-fall.warn{
+button.warn{
     color: #DF9096;
     background-color: #721C1C;
     @include animateWith12Font;
 }
-button.star-fall.warn:hover{
+button.warn:hover{
     background-color: #9B1515;
     @include animateWith13Font;
 }
-button.star-fall.disabled{
+button.disabled{
     color: #AFACAC;
     background-color: #5A5858;
     cursor: not-allowed;

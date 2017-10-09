@@ -1,0 +1,25 @@
+input.star-fall{
+    border-radius: 4px;
+    height: 20px;
+    padding: 4px;
+    font-family: 'Roboto';
+    color: rgb(90,90,90);
+    box-shadow: inset 0 -2px 3px darkgrey;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+}
+input.star-fall.violet{
+    border-color: rgb(19,24,98);
+    color: rgb(19,24,98);
+}
+input.star-fall.light{
+    border-color: rgb(190,169,222);
+}
+input.star-fall.warn{
+    border-color: #721C1C;
+    color: #721C1C;
+}
+input.star-fall.disabled{
+    border-color: darkgray;
+}
